@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zváranie Vladimír – TIG & MIG</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('images/tig_bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #f2f2f2;
+        }
+        header {
+            background-color: rgba(34, 34, 34, 0.9);
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #ff6600;
+        }
+        header h1 {
+            margin: 0;
+            color: #ff6600;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #f2f2f2;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ff6600;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: rgba(0,0,0,0.7);
+            border-radius: 8px;
+        }
+        h2 {
+            color: #ff6600;
+            border-bottom: 2px solid #ff6600;
+            padding-bottom: 10px;
+        }
+        .materials-grid, .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .materials-grid img, .gallery-grid img {
+            width: 100%;
+            height: auto;
+            border: 2px solid #ff6600;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: rgba(34, 34, 34, 0.9);
+            padding: 15px;
+            text-align: center;
+            font-size: 14px;
+            color: #aaa;
+            border-top: 3px solid #ff6600;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Zváranie Vladimír – TIG & MIG</h1>
+        <nav>
+            <a href="#about">O mne</a>
+            <a href="#materials">Materiály</a>
+            <a href="#gallery">Galéria</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>O mne</h2>
+        <p>Som skúsený zvárač špecializujúci sa na TIG a MIG metódy zvárania. Ponúkam zámočnícke práce a opravy kovových konštrukcií priamo u zákazníka. Pracujem rýchlo, precízne a s dôrazom na kvalitu.</p>
+    </section>
+
+    <section id="materials">
+        <h2>Materiály</h2>
+        <div class="materials-grid">
+            <div>
+                <img src="images/cierna_ocel.jpg" alt="Čierna oceľ">
+                <p><strong>Čierna oceľ:</strong> Odolný materiál vhodný na konštrukcie a opravy.</p>
+            </div>
+            <div>
+                <img src="images/nerez.jpg" alt="Nerez">
+                <p><strong>Nerez:</strong> Elegantný a korózii odolný materiál pre moderné projekty.</p>
+            </div>
+            <div>
+                <img src="images/hlinik.jpg" alt="Hliník">
+                <p><strong>Hliník:</strong> Ľahký, pevný a odolný materiál pre špeciálne aplikácie.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Galéria</h2>
+        <div class="gallery-grid">
+            <img src="images/galeria1.jpg" alt="Zváranie ukážka 1">
+            <img src="images/galeria2.jpg" alt="Zváranie ukážka 2">
+            <img src="images/galeria3.jpg" alt="Zváranie ukážka 3">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>📞 Telefón: +421 900 123 456</p>
+        <p>📧 Email: zvaranie.vladimir@example.com</p>
+        <p>📍 Pôsobenie: Kežmarok a okolie</p>
+    </section>
+
+    <footer>
+        &copy; 2025 Zváranie Vladimír – Všetky práva vyhradené
+    </footer>
+</body>
+</html>
